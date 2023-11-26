@@ -39,7 +39,9 @@ const ComicForm = ({ onSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit} className="my-4">
-      <label htmlFor="comicInput">Enter Comic Prompts (Separated by '|'):</label>
+      <p className='font-semibold'>Enter Comic Prompts (Separated by '|')</p>
+      <p className='text-sm mt-1 mb-3'>To generate speech bubbles  type - "Generate images with speech bubbles or text annotations emphasizing...."</p>
+
       <textarea
         id="comicInput"
         value={inputText}
