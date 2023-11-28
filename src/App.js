@@ -128,7 +128,7 @@ const App = () => {
         images.length > 0 && (
           <>
             <ComicPanel images={images} />
-            <DownloadButton onClick={downloadImages} />
+            {/* <DownloadButton onClick={downloadImages} /> */}
           </>
         )
       )}
